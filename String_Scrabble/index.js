@@ -9,8 +9,8 @@ function StringScramble(str1,str2) {
     }
   };
 
-return matches.length == str2.length ? true : false;
+return matches.length === str2.length;
 }
    
 // keep this function call here 
-console.log(StringScramble(readline()));
+console.log(StringScramble("h3ll0","hello"));     
